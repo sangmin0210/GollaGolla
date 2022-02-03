@@ -1,2 +1,2 @@
-# GolraGolra
+# GollaGolla
 Team project (narobeach hotel)
