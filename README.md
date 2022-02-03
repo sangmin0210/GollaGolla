@@ -1,2 +1,2 @@
 # GolraGolra
-Team project (narobitch hotel)
+Team project (narobetch hotel)
