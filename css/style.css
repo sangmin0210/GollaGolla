@@ -4,6 +4,7 @@
     justify-content: flex-end;
     padding-top: 10px;
     margin: 0 auto;
+    font-size: 12px;
 }
 
 .tnb li:nth-child(2) {
@@ -44,7 +45,7 @@
 }
 
 .header-bottom {
-    background-color: #2A276C;
+    background-color: #192D70;
     height: 60px;
 }
 
@@ -66,11 +67,363 @@
 .lnb {
     display: none;
 }
-
-.visual-carousel {
-    width: 1400px;
-    margin: 0 auto;
+#visual {
+    position: relative; 
 }
+.visual-carousel img {
+    width: 100%;
+    height: 670px;
+}
+
+/* ----------------메인 객실 예약 메뉴바------------- */
+
+#reser {
+    position: absolute;
+    z-index: 100;
+    top: 103%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.reser-menu { 
+    display: flex;
+    background-color: #62CDFB;
+    width: 1200px;
+    justify-content: space-evenly;
+    height: 100px;
+}
+.reser-menu li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reser-menu li a {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+.reser-menu li a p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #192D70;
+}
+
+#reser-btn {
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: #192D70;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
+#reser-btn > p {
+    color: white;
+}
+
+/*----------------- main section---------------- */
+
+#main {
+    margin-top: 150px;
+}
+#main > h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+.section-wrap {
+    background: url("../images/wrap.png");
+    height: 700px;
+}
+.room-wrap{
+    max-width:1400px;
+    margin: 0 auto;
+    display: flex;
+}
+.room-img { 
+    background-color: #6C6A9A;
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room-img img {
+    width: 650px;
+    height: 630px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .visual-carousel img {
     width: 1400px;
@@ -258,4 +611,46 @@ header {
 /*======================= footer style ========================*/
 footer {
     background: violet;
+=======
+.room-content {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.room-content li {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #9b9999;
+    border-bottom: 1px solid #9b9999;
+    padding: 20px 0;
+    width: 500px;
+    margin-left: 120px;
+
+}
+
+.content-img img {
+    width: 250px;
+    height: 170px;
+}
+
+
+.content-desc {
+    margin-left: 10px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 22px;
+}
+
+.content-desc button {
+    margin-top: 40px;
+    width: 90px;
+    height: 35px;
+    background-color: #192D70;
+    color: white;
+    border: 0;
+    border-radius: 25px;
 }
