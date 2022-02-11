@@ -84,6 +84,7 @@
 */
 
 /* 공통 요소 : 하이퍼링크 */
+/*======================= header style ========================*/
 a, a:link {
     text-decoration: none;
     color: inherit
@@ -94,17 +95,15 @@ header, footer {
 header {
     background: orange;
 }
+/*======================= /header style ========================*/
+
+/*======================= subpage-wrap style ========================*/
 #main {
     margin: 20px 0;
 }
 .subpage-wrap {
     max-width: 1400px;
-    height: 1200px;
     margin: 0 auto;
-}
-
-footer {
-    background: violet;
 }
 .main-title {
     display: flex;
@@ -131,7 +130,7 @@ footer {
     height: 450px;
     width: 960px;
     margin-left: 16%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .main-sub h3{
     background: #103353;
@@ -153,28 +152,58 @@ footer {
     line-height: 2.5;
     margin-top: 10%;
 }
-.greeting {
-    position: relative;
-}
 .greetings p {
     margin: 2rem 0;
 }
+.greetings h4:first-letter {
+    font-size: 2rem;
+}
+/*======================= /subpage-wrap style ========================*/
 
+/*======================= subpage-wrap2 style ========================*/
+.main-sub2 {
+    margin-top: 20%;
+}
+.wrap-outer{
+    background:#B5B8C1;
+}
 .history {
     display: flex;
-    background:gray;
     justify-content: center;
     padding: 25px 0;
 }
-.history > ul {
+/* .history > ul {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+.text1 {
+    margin-left: 19px;
 }
-.history > ul > h4 {
+.history img {
+    margin-top: 10px;
+}
+
+.history li > ul > li {
+    line-height: 1.5;
+}
+.history-text {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.history-text > ul > li > h4 {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
+/*======================= /subpage-wrap2 style ========================*/
+
 .main-sub2 h3 {
     background: #103353;
     display: inline-block;
@@ -184,13 +213,15 @@ footer {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 10px;
-    margin-left: 15%;
+    margin-left: 25%;
     padding-right: 32px;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .subpage-wrap2 {
     max-width: 1400px;
+    margin-left: 13%;
+    margin-top: 10%;
 }
 .subpage-wrap2 h3 {
     background: #103353;
@@ -200,15 +231,31 @@ footer {
     border-radius: 30px;
     font-weight: bold;
     font-size: 20px;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+/*======================= subpage-wrap3 style ========================*/
 .main-sub3 {
    align-items: center;
+   display: flex;
+   justify-content: center;
 }
-.main-sub3 p {
+.Company-text p {
     margin: 2rem 0;
+    margin-left: 65px;
+    line-height: 2.5;
+    font-weight: bold;
+    font-size: 18px;
 }
+/*======================= /subpage-wrap2 style ========================*/
 .breadcrumb {
     text-align: right;
     padding: 15px 0;
     border-bottom: 1px solid #333;
+}
+
+/*======================= footer style ========================*/
+footer {
+    background: violet;
 }
