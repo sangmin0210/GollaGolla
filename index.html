@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <div class="sub-main">
+        <div class="sub-menu">
             <ul class="tnb">
                 <li><a href="#">홈</a></li>
                 <li><a href="#">사이트맵</a></li>
@@ -39,7 +39,7 @@
                 </a>
             </div>
         </div>
-        <nav class="header-bottom">
+        <nav class="header-menu">
             <ul id="gnb">
                 <li><a href="#">호텔소개</a>
                     <ul class="lnb">
@@ -48,16 +48,13 @@
                     </ul>
                 </li>
                 <li><a href="#">숙박시설</a></li>
-                <li><a href="#">부대시설</a></li>
                 <li><a href="#">예약안내</a></li>
-                <li><a href="#">주변관광지</a>
-                </li>
+                <li><a href="#">주변관광지</a></li>
                 <li><a href="#">고객센터</a>
                     <ul class="lnb">
                         <li><a href="#">공지사항</a></li>
                         <li><a href="#">이용안내</a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="#">Q & A</a></li>
                     </ul>
                 </li>
             </ul>
@@ -116,7 +113,7 @@
             <!-- 아직 미구현 -->
         </div>
     </section>
-    <section id="main">
+    <section id="main-room">
         <h2>객 실</h2>
         <article class="section-wrap">
             <div class="room-wrap">
@@ -150,9 +147,60 @@
             </div>
         </article>
     </section>
+    <section>
+        <article id="main-tour">
+            <h2>Tourist Facility</h2>
+            <div class="tour-wrap">
+                <a href="#"><img src="/images/tour-arrow1.png" alt="arrow"></a>
+                <a href="#"><img src="/images/tour-arrow2.png" alt="arrow"></a>
+                <ul class="tour-wrap2">
+                    <li class="tour-infor">
+                        <h3>청소년 우주 체험센터</h3>
+                        <p>우주에 대한 궁금중을 풀어주고 <br> 기초지식을 가르치는 체험활동 <br>
+                        프로그램을 다양하게 운영한다.
+                        </p>
+                    </li>
+                    <li class="tour-exper">
+                        <h3>Space Experience</h3>
+                        <p>영업 &#45; 09:00 ~ 18:00</p>
+                        <p>문의 &#45; 010-1234-5678
+                            <br> <span class="tour-text">010-1011-1234</span>
+                        </p>
+                    </li>
+                    <li class="tour-img">
+                        <a href="#"><img src="/images/img-btn.png" alt="재생버튼"></a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </section>
     <footer>
-
+        <div class="footer">
+            <ul class="footer-menu">
+                <li><a href="#">호텔소개</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+            </ul>
+            <div class="copyright">
+                <p>상호:(주)나로씨티 | 대표: 이낙천 | 주소: 전라남도 고흥군 봉래면 신금리 1251번지 | 사업자등록번호: 410-81-16372 | TEL: 061-835-9001 | FAX: 061-835-9029</p>
+                <p>COPYRIGHT (C) 2022 NARO BEACH HOTEL. ALL RIGHTS RESTEVED.</p>
+            </div>
+            <ul class="footer-logo">
+                <li><img src="/images/logo.png" alt="로고"></li>
+                <li class="footer-infor">
+                    <p><span class="infor1">(주) 나로씨티</span></p>
+                    <p><span class="infor2">NARO CITY</span></p>
+                </li>
+            </ul>
+        </div>
     </footer>
+    <script>
+        $(function(){
+            $("a").on("click", function(e){
+                e.preventDefault();
+            })
+        })
+    </script>
 </body>
 
 </html>
