@@ -201,7 +201,7 @@
 }
 .room-content li {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     border-top: 1px solid #9b9999;
     border-bottom: 1px solid #9b9999;
     padding: 20px 0;
@@ -211,10 +211,10 @@
 }
 
 .content-img img {
-    width: 250px;
-    height: 170px;
+    width: 200px;
+    height: 120px;
+    padding-left: 40px;
 }
-
 
 .content-desc {
     margin-left: 10px;
@@ -234,9 +234,9 @@
     font-size: 12px;
 }
 .content-desc button {
-    margin-top: 40px;
-    width: 90px;
-    height: 35px;
+    margin-top: 10px;
+    width: 50px;
+    height: 20px;
     background-color: #192D70;
     color: white;
     border: 0;
@@ -244,34 +244,52 @@
 }
 
 /*----------------- Tourist ----------------*/
-
 #main-tour > h2 {
     text-align: center;
     font-size: 2rem;
     margin: 100px 0 70px 0;
     font-weight: bold;
+    
+}
+#tour-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 1400px;
+    height: 450px;
+    margin: 0 auto;
+}
+.prev {
+    position: absolute;
+    z-index: 30;
+    top: 45%;
+    left: 1%;
+}
+.next {
+    position: absolute;
+    z-index: 30;
+    left: 97%;
+    top: 45%;
+}
+
+.item-wrap {
+    width: 200%;
+    height: 100%;
+    display: flex;
 
 }
-.tour-wrap {
+.tour-item {
     width: 1400px;
     margin: 0 auto;
-    background: url("../images/tour-banner.jpg");
-    background-size: 100%;
     height: 450px;
     position: relative;
 }
-.tour-wrap > a:nth-child(1) {
-    position: absolute;
-    top: 50%;
-    left: 1%;
+.tour-item > img {
+    width: 1400px;
+    height: 450px;
+    position: relative;
+}
 
-}
-.tour-wrap > a:nth-child(2) {
-    position: absolute;
-    left: 97%;
-    top: 50%;
-}
-.tour-wrap2 {
+.tour-item-wrap {
     width: 1200px;
     display: flex;
     margin: 0 auto;
@@ -280,6 +298,9 @@
 }
 
 .tour-infor { 
+    position: absolute;
+    top: 10%;
+    z-index: 20;
     width: 600px;
     height: 350px;
     display: flex;
@@ -300,11 +321,25 @@
 }
 
 
-.tour-img {
+.tour-youtube {
     width: 550px;
     height: 350px;
     background-color: #BE4F4F;
     position: relative;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    left: 53%;
+}
+
+.tour-youtube iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    left: 0;
+    top: 0;
 }
 .tour-img > a > img {
     width: 70px;
@@ -312,7 +347,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 .tour-exper { 
     background-color: #345C8B;
@@ -343,6 +377,37 @@
 .tour-text {
     margin-left: 54px;
 }
+/* -------------------event---------------------- */
+#event > h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 100px 0 70px 0;
+    font-weight: bold;
+}
+.event-wrap {
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.event-wrap > a:nth-child(1) {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+
+}
+.event-wrap > a:nth-child(2) {
+    position: absolute;
+    left: 97%;
+    top: 45%;
+}
+.event-banner > a > img {
+    width: 1400px;
+    height: 500px;
+}
+
+
+
 
 
 /* ------------------ footer ------------------- */
