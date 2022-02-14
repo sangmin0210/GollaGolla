@@ -409,6 +409,149 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ======================= 지훈 담당 페이지 =================== 
     호텔소개 : about.html (2.10)
     
@@ -575,6 +718,60 @@ a, a:link {
     font-size: 18px;
 }
 /*======================= /subpage-wrap2 style ========================*/
+
+
+/*======================= room-page style ========================*/
+.room-title {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.room-title h1 {
+    background: #103353;
+    display: inline-block;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5%;
+    letter-spacing: 9px;
+}
+
+.room-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    margin-left: 2%;
+}
+
+.room-slider img {
+   margin-left: 15%;
+   width: 1000px;
+   height: 500px;
+}
+
+.slider-mini, .slider-mini2 {
+    width: 500px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .breadcrumb {
     text-align: right;
     padding: 15px 0;
