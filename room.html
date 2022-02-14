@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7ce992cc35.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>호텔소개</title>
+</head>
+<body>
+    <header>
+        <div class="sub-menu">
+            <ul class="tnb">
+                <li><a href="#">홈</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div>
+        <div class="header-main">
+            <div class="logo">
+                <a href="#"><img src="/images/logo.png" alt="나로비치호텔">
+                    <p>naro beach hotel</p>
+                </a>
+            </div>
+        </div>
+        <nav class="header-menu">
+            <ul id="gnb">
+                <li><a href="#">호텔소개</a>
+                    <ul class="lnb">
+                        <li><a href="#">호텔소개</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">숙박시설</a></li>
+                <li><a href="#">예약안내</a></li>
+                <li><a href="#">주변관광지</a></li>
+                <li><a href="#">고객센터</a>
+                    <ul class="lnb">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">Q & A</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main">
+        <div class="subpage-wrap">
+            <div class="breadcrumb">
+                <a href="#"><i class="fa-solid fa-house"></i> 홈 </a> <i class="fa-solid fa-angle-right"></i> 숙박시설 <i class="fa-solid fa-angle-right"></i> 한실
+            </div>
+            <div class="room-title">
+                <h1>한실</h1>
+                <h2>우리나라 전통 온돌방의 정취를 느끼며 안락한휴식을
+                    취하실 수 있습니다.</h2>
+            </div>
+            <div class="room-slider">
+                <img src="../images/ondol01.png" alt="룸 이미지">
+                <div class="slider-mini">
+                    <div>
+                        <img src="../images/ondol02.png">
+                    </div>
+                    <div>
+                        <img src="../images/ondol03.png">
+                    </div>
+                    <div>
+                        <img src="../images/ondol04.png">
+                    </div>
+                    <div>
+                        <img src="../images/ondol05.png">
+                    </div>
+                </div>
+                <div class="slider-mini2">
+                    <div>
+                        <img src="../images/ondol06.png">
+                    </div>
+                    <div>
+                        <img src="../images/ondol07.png">
+                    </div>
+                </div>
+            </div>
+        </div>    
+       
+    </section>
+    <footer>
+        <div class="footer">
+            <ul class="footer-menu">
+                <li><a href="#">호텔소개</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+            </ul>
+            <div class="copyright">
+                <p>상호:(주)나로씨티 | 대표: 이낙천 | 주소: 전라남도 고흥군 봉래면 신금리 1251번지 | 사업자등록번호: 410-81-16372 | TEL: 061-835-9001 | FAX: 061-835-9029</p>
+                <p>COPYRIGHT (C) 2022 NARO BEACH HOTEL. ALL RIGHTS RESTEVED.</p>
+            </div>
+            <ul class="footer-logo">
+                <li><img src="/images/logo.png" alt="로고"></li>
+                <li class="footer-infor">
+                    <p><span class="infor1">(주) 나로씨티</span></p>
+                    <p><span class="infor2">NARO CITY</span></p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        $(function(){
+            $("a").on("click", function(e){
+                e.preventDefault();
+            })
+        })
+    </script>
+</body>
+</html>
