@@ -837,7 +837,7 @@ a, a:link {
 /*======================= room-page style ========================*/
 .room-title {
     display: flex;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 
@@ -850,7 +850,7 @@ a, a:link {
     margin-bottom: 5%;
     font-weight: bold;
     font-size: 20px;
-    margin-right: 5%;
+    margin-right: 10%;
     letter-spacing: 9px;
 }
 
@@ -859,7 +859,7 @@ a, a:link {
     font-weight: bold;
     line-height: 1.5;
     margin-bottom: 2px;
-    margin-left: 2%;
+    /* margin-left: 2%; */
 }
 
 .room-slider img {
@@ -868,15 +868,38 @@ a, a:link {
    height: 500px;
 }
 
-.slider-mini, .slider-mini2 {
-    width: 500px;
-    height: 300px;
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    background: #BE4F4F;
 }
 
+.full-img {
+    margin: 0 auto;
+    font-size: 0;
+}
+.full-img img {
+    width: 100%;
+}
 
+.container img {
+    width: 280px;
+    height: 190px;
+    margin: 10px 10px;
+}
 
-
-
+.btns {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.btn1, .btn2 {
+    background: #192D70;
+    padding: 10px 15px;
+    color: #fff;    
+}
 
 
 
