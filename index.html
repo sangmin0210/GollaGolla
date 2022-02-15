@@ -12,7 +12,8 @@
     <meta property="og:description" content="고흥 나로비치호텔, 우주 항공산업의 메카인 고흥 그리고 나로비치호텔에서 추억을 만들어보세요.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="http://sangmin.dothome.co.kr/naro/images">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/52b9cbcdb3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,7 +25,7 @@
     <header>
         <div class="sub-menu">
             <ul class="tnb">
-                <li><a href="#">홈</a></li>
+                <li><a href="/index.html">홈</a></li>
                 <li><a href="#">사이트맵</a></li>
                 <li><a href="#">로그인</a></li>
                 <li><a href="#">회원가입</a></li>
@@ -32,22 +33,22 @@
         </div>
         <div class="header-main">
             <div class="logo">
-                <a href="#"><img src="/images/logo.png" alt="나로비치호텔">
+                <a href="/index.html"><img src="/images/logo.png" alt="나로비치호텔">
                     <p>naro beach hotel</p>
                 </a>
             </div>
         </div>
         <nav class="header-menu">
             <ul id="gnb">
-                <li><a href="#">호텔소개</a>
+                <li><a href="/about.html">호텔소개</a>
                     <ul class="lnb">
-                        <li><a href="#">호텔소개</a></li>
+                        <li><a href="/about.html">호텔소개</a></li>
                         <li><a href="#">오시는길</a></li>
                     </ul>
                 </li>
                 <li><a href="#">숙박시설</a>
                     <ul class="lnb">
-                        <li><a href="#">한 실</a></li>
+                        <li><a href="/room.html">한 실</a></li>
                         <li><a href="#">더블룸</a></li>
                         <li><a href="#">트윈룸</a></li>
                         <li><a href="#">스위트룸</a></li>
@@ -71,38 +72,63 @@
         </div>
         <div id="reser">
             <ul class="reser-menu">
-                <li>
-                    <a href="#">
+                <li class="room-search">
+                    <a href="javascript:;">
                         <p>RoomType<br><span>객실선택</span></p>
                         <img src="/images/bottom-arrow.png" alt="화살표">
                     </a>
+                    <div id="room-wrap">
+                        <ul class="room-box">
+                            <li>
+                                <input type="radio" id="" name="roomtype" vaule="" checked>
+                                <label for="">한 실</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="" name="roomtype" vaule="">
+                                <label for="">더블룸</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="" name="roomtype" vaule="">
+                                <label for="">트윈룸</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="" name="roomtype" vaule="">
+                                <label for="">스위트룸</label>
+                            </li>
+                        </ul>
+                        <div id="date">
+                            <label for="start">날짜 선택</label>
+                            <input type="date" id="start" name="trip-start" value="2022-02-15" min="2022-02-15"
+                                max="2023-02-10">
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="javascript:;">
                         <p>Check in<br><span>선택</span></p>
                         <img src="/images/bottom-arrow.png" alt="화살표">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="javascript:;">
                         <p>Check Out<br><span>선택</span></p>
                         <img src="/images/bottom-arrow.png" alt="화살표">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="javascript:;">
                         <p>Adults<br><span>선택</span></p>
                         <img src="/images/bottom-arrow.png" alt="화살표">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="javascript:;">
                         <p>Youth<br><span>선택</span></p>
                         <img src="/images/bottom-arrow.png" alt="화살표">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="javascript:;">
                         <p>minor<br><span>선택</span></p>
                         <img src="/images/bottom-arrow.png" alt="화살표">
                     </a>
@@ -128,7 +154,8 @@
                 <div class="room-img"><img src="https://picsum.photos/id/28/600/700" alt="image"></div>
                 <ul class="room-content">
                     <li>
-                        <div class="content-img"><img src="https://picsum.photos/id/28/300/300" alt="image"></div>
+                        <div class="content-img"><a href="javascript:;"><img src="https://picsum.photos/id/28/300/300"
+                                    alt="image"></a></div>
                         <div class="content-desc">
                             <h3>한실</h3>
                             <p>우리나라 전통 온돌방의 정취를 느끼며 <br>안락한 휴식을 취하실 수 있습니다.</p>
@@ -136,7 +163,8 @@
                         </div>
                     </li>
                     <li>
-                        <div class="content-img"><img src="https://picsum.photos/id/24/300/300" alt="image"></div>
+                        <div class="content-img"><a href="javascript:;"><img src="https://picsum.photos/id/24/300/300"
+                                    alt="image"></a></div>
                         <div class="content-desc">
                             <h3>더블룸</h3>
                             <p>내 집 같은 아늑함이 느껴지는 <br>편안한 휴식과 함께 삶의 여유를 드립니다.</p>
@@ -144,7 +172,8 @@
                         </div>
                     </li>
                     <li>
-                        <div class="content-img"><img src="https://picsum.photos/id/20/300/300" alt="image"></div>
+                        <div class="content-img"><a href="javascript:;"><img src="https://picsum.photos/id/20/300/300"
+                                    alt="image"></a></div>
                         <div class="content-desc">
                             <h3>트윈룸</h3>
                             <p>다채로운 인테리어와 정성어린 <br>서비스로 편안하게 모시겠습니다.</p>
@@ -152,7 +181,8 @@
                         </div>
                     </li>
                     <li>
-                        <div class="content-img"><img src="https://picsum.photos/id/45/300/300" alt="image"></div>
+                        <div class="content-img"><a href="javascript:;"><img src="https://picsum.photos/id/45/300/300"
+                                    alt="image"></a></div>
                         <div class="content-desc">
                             <h3>스위트 룸</h3>
                             <p>아늑하고 쾌적한 환경으로 <br>만족스러운 휴식과 추억을 드립니다.</p>
@@ -167,8 +197,8 @@
         <article id="main-tour">
             <h2>Tourist Facility</h2>
             <div id="tour-wrap">
-                <div class="prev"><a href="#"><img src="/images/tour-arrow1.png" alt="arrow"></a></div>
-                <div class="next"><a href="#"><img src="/images/tour-arrow2.png" alt="arrow"></a></div>
+                <div class="prev"><img src="/images/tour-arrow1.png" alt="arrow"></div>
+                <div class="next"><img src="/images/tour-arrow2.png" alt="arrow"></div>
                 <div class="item-wrap">
                     <div class="tour-item">
                         <img src="/images/tour-banner.jpg" alt="청소년 우주 체험센터">
@@ -176,7 +206,7 @@
                             <li class="tour-infor">
                                 <h3>청소년 우주 체험센터</h3>
                                 <p>우주에 대한 궁금중을 풀어주고 <br> 기초지식을 가르치는 체험활동 <br>
-                                프로그램을 다양하게 운영한다.
+                                    프로그램을 다양하게 운영한다.
                                 </p>
                             </li>
                             <li class="tour-exper">
@@ -187,7 +217,10 @@
                                 </p>
                             </li>
                             <li class="tour-youtube">
-                                <iframe width="1134" height="638" src="https://www.youtube.com/embed/5D8KR6_wPU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/ekv_Ad3hZ4U"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
                                 </a>
                             </li>
                         </ul>
@@ -198,7 +231,7 @@
                             <li class="tour-infor">
                                 <h3>천문 과학관</h3>
                                 <p>우주천문과학관은 한반도 최남단<br> 청정지역 밤하늘의 별자리를 한눈에<br>
-                                볼 수 있고, 우주 항공 중심 도시에 걸맞게 <br> 우주선을 본뜬 모형을 설계에 반영하였다.</p>
+                                    볼 수 있고, 우주 항공 중심 도시에 걸맞게 <br> 우주선을 본뜬 모형을 설계에 반영하였다.</p>
                             </li>
                             <li class="tour-exper">
                                 <h3>Space Experience</h3>
@@ -208,7 +241,34 @@
                                 </p>
                             </li>
                             <li class="tour-youtube">
-                                <iframe width="1134" height="638" src="https://www.youtube.com/embed/RdaAwSdtn10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="1134" height="638" src="https://www.youtube.com/embed/RdaAwSdtn10"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tour-item">
+                        <img src="/images/tour-banner3.jpg" alt="염포해수욕장">
+                        <ul class="tour-item-wrap">
+                            <li class="tour-infor">
+                                <h3>염포해수욕장</h3>
+                                <p>염포해수욕장 갯바위 낚시 잘되는 <br>하반해변과 해수욕장을 함께 즐길 수 있다.<br>
+                                    자갈이 약간 섞인 백사장으로 아름드리<br> 소나무숲이 시원스런 그늘을 제공하는 <br>운치 있는 해변이다.</p>
+                            </li>
+                            <li class="tour-exper">
+                                <h3>Space Experience</h3>
+                                <p>영업 &#45; 09:00 ~ 18:00</p>
+                                <p>문의 &#45; 010-1234-5678
+                                    <br> <span class="tour-text">010-1011-1234</span>
+                                </p>
+                            </li>
+                            <li class="tour-youtube">
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/KlZ7SxTRaZQ"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
                                 </a>
                             </li>
                         </ul>
@@ -221,10 +281,14 @@
         <article id="event">
             <h2>EVENT</h2>
             <div class="event-wrap">
-                <a href="#"><img src="/images/tour-arrow1.png" alt="arrow"></a>
-                <a href="#"><img src="/images/tour-arrow2.png" alt="arrow"></a>
-                 <div class="event-banner">
-                     <a href="#"><img src="https://picsum.photos/id/77/300/300" alt="image"></a>
+                <div class="e-prev"><a href="#"><img src="/images/tour-arrow1.png" alt="arrow"></a></div>
+                <div class="e-next"><a href="#"><img src="/images/tour-arrow2.png" alt="arrow"></a></div>
+                <div class="event-banner-wrap">
+                    <ul class="event-banner">
+                        <li><a href="javascript:;"><img src="https://picsum.photos/id/27/300/300" alt="image"></a></li>
+                        <li><a href="javascript:;"><img src="https://picsum.photos/id/87/300/300" alt="image"></a></li>
+                        <li><a href="javascript:;"><img src="https://picsum.photos/id/37/300/300" alt="image"></a></li>
+                    </ul>
                 </div>
             </div>
         </article>
@@ -237,7 +301,8 @@
                 <li><a href="#">이메일무단수집거부</a></li>
             </ul>
             <div class="copyright">
-                <p>상호:(주)나로씨티 | 대표: 이낙천 | 주소: 전라남도 고흥군 봉래면 신금리 1251번지 | 사업자등록번호: 410-81-16372 | TEL: 061-835-9001 | FAX: 061-835-9029</p>
+                <p>상호:(주)나로씨티 | 대표: 이낙천 | 주소: 전라남도 고흥군 봉래면 신금리 1251번지 | 사업자등록번호: 410-81-16372 | TEL: 061-835-9001 | FAX:
+                    061-835-9029</p>
                 <p>COPYRIGHT (C) 2022 NARO BEACH HOTEL. ALL RIGHTS RESTEVED.</p>
             </div>
             <ul class="footer-logo">
@@ -250,46 +315,97 @@
         </div>
     </footer>
     <script>
-        var nCurr = 0
-        $(function(){
-            $("a").on("click", function(e){
-                e.preventDefault();
-            })
+        var nCurr = 0;
+
+        $(function () {
             gnb();
             carousel();
+            imgsearch();
+            eventcarousel();
+            roomsearch();
         })
 
-        
-        function carousel(){
-            
-            $(".prev").click(function(){
-                var nIndex = nCurr-1;
-                if(nIndex < 0) nIndex = 1
-                var nPos = -1400*nIndex;
-                $(".item-wrap").animate({
+        function eventcarousel() {
+
+            $(".e-prev").click(function (e) {
+                e.preventDefault();
+                var nIndex = nCurr - 1;
+                if (nIndex < 0) nIndex = 2
+                nCurr = nIndex
+                var nPos = -1400 * nIndex;
+                console.log(nPos);
+                $(".event-banner").stop().animate({
+                    "margin-left": nPos
+                });
+            });
+
+            $(".e-next").click(function (e) {
+                e.preventDefault();
+                var nIndex = nCurr + 1
+                if (nIndex >= 3) nIndex = 0
+                nCurr = nIndex
+                var nPos = -1400 * nIndex;
+                console.log(nPos);
+                $(".event-banner").stop().animate({
                     "margin-left": nPos
                 })
             })
-            
-            
-            $(".next").click(function(){
-                var nIndex = nCurr+1
-                if(nIndex >= 1) nIndex = 0
-                var nPos = -1400*nIndex;
-                $(".item-wrap").animate({
-                    "margin-left": nPos
-                })
-            })
-            
         }
-        function gnb(){
+        function carousel() {
+
+            $(".prev").click(function (e) {
+                e.preventDefault();
+                var nIndex = nCurr - 1;
+                if (nIndex < 0) nIndex = 2
+                nCurr = nIndex
+                var nPos = -1400 * nIndex;
+                console.log(nPos);
+                $(".item-wrap").stop().animate({
+                    "margin-left": nPos
+                });
+            });
+
+            $(".next").click(function (e) {
+                e.preventDefault();
+                var nIndex = nCurr + 1
+                if (nIndex >= 3) nIndex = 0
+                nCurr = nIndex
+                var nPos = -1400 * nIndex;
+                console.log(nPos);
+                $(".item-wrap").stop().animate({
+                    "margin-left": nPos
+                })
+            })
+
+        }
+
+        function imgsearch() {
+            $(".content-img").click(function () {
+                var imgURL = $(this).find("img").attr("src");
+                console.log(imgURL);
+                $(".room-img > img").attr("src", imgURL);
+            });
+        }
+
+        function gnb() {
             var gnb = $('#gnb > li')
-            gnb.hover(function(){
-                    $(this).children(".lnb").css("display", "block");
-                }, function() {
-                    $(this).children(".lnb").css("display", "none");
-                }
+            gnb.hover(function () {
+                $(this).children(".lnb").css("display", "block");
+            }, function () {
+                $(this).children(".lnb").css("display", "none");
+            }
             );
+        }
+
+        function roomsearch() {
+            var roomsearch = $('.room-search')
+            roomsearch.click(function(){
+                $(this).children("#room-wrap").css("display", "block");
+            })
+            var roomout = $('#room-wrap')
+            roomout.mouseleave(function(){
+                $(this).css("display", "none");
+            })
         }
     </script>
 </body>
