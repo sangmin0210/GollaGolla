@@ -60,30 +60,20 @@
                 <h2>우리나라 전통 온돌방의 정취를 느끼며 안락한휴식을
                     취하실 수 있습니다.</h2>
             </div>
-            <div class="room-slider">
-                <img src="../images/ondol01.png" alt="룸 이미지">
-                <div class="slider-mini">
-                    <div>
-                        <img src="../images/ondol02.png">
-                    </div>
-                    <div>
-                        <img src="../images/ondol03.png">
-                    </div>
-                    <div>
-                        <img src="../images/ondol04.png">
-                    </div>
-                    <div>
-                        <img src="../images/ondol05.png">
-                    </div>
-                </div>
-                <div class="slider-mini2">
-                    <div>
-                        <img src="../images/ondol06.png">
-                    </div>
-                    <div>
-                        <img src="../images/ondol07.png">
-                    </div>
-                </div>
+            <div class="full-img"><img src="../images/ondol01.png" alt="룸 이미지"></div>
+            <div class="container">
+                <span class="item"><img src="../images/ondol02.png"></span>
+                <span class="item"><img src="../images/ondol03.png"></span>
+                <span class="item"><img src="../images/ondol04.png"></span>
+                <span class="item"><img src="../images/ondol05.png"></span>
+                <span class="item"><img src="../images/ondol06.png"></span>
+                <span class="item"><img src="../images/ondol07.png"></span>
+                <span class="item"><img src="../images/ondol08.png"></span>
+                
+                <span class="btns">
+                    <div class="btn1"><a href="#">객실문의</a></div>
+                    <div class="btn2"><a href="#">예약하기</a></div>
+                </span>
             </div>
         </div>    
        
@@ -110,10 +100,12 @@
     </footer>
 
     <script>
-        $(function(){
-            $("a").on("click", function(e){
-                e.preventDefault();
-            })
+        $('.container').click(function(){
+            
+            // 할일
+            // 1. 작은 룸 이미지를 클릭하면,
+            // 2. 큰 룸 이미지가 바뀌도록 (작은 이미지 --> 큰 이미지로 변경)
+            // 작은이미지들.click(function(){ 큰 이미지를 바꿔! })
         })
     </script>
 </body>
